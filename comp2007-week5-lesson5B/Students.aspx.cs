@@ -25,7 +25,7 @@ namespace comp2007_week5_lesson5B
                 this.GetStudents();
             }
         }
-        /**
+ /**
  * <summary>
  * This method gets the student data from the DB
  * </summary>
