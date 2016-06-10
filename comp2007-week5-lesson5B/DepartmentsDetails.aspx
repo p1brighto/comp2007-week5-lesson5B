@@ -7,11 +7,11 @@
                 <h5>All Fields are Required</h5>
                 <br />
                 <div class="form-group">
-                    <label class="control-label" for="NameTextBox">Name</label>
-                    <asp:TextBox runat="server" CssClass="form-control" ID="NameTextBox" placeholder="Name" required="true"></asp:TextBox>
+                    <label class="control-label" for="NameTextBox">Department Name</label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="NameTextBox" placeholder="Department Name" required="true"></asp:TextBox>
                 </div>
                 <div class="form-group">
-                    <label class="control-label" for="BudgetTextBox">Budget</label>
+                    <label class="control-label" for="BudgetTextBox"><i class="fa fa-usd fa-sm"></i> Budget</label>
                     <asp:TextBox runat="server" CssClass="form-control" ID="BudgetTextBox" placeholder="Branch" required="true"></asp:TextBox>
                 </div>           
                 <div class="text-right">
