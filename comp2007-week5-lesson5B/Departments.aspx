@@ -11,7 +11,7 @@
                     <Columns>
                         <asp:BoundField  DataField="DepartmentID" HeaderText="Department ID" Visible="true" SortExpression="DepartmentID"/>
                         <asp:BoundField  DataField="Name" HeaderText="Department Name" Visible="true" SortExpression="Name"/>
-                        <asp:BoundField  DataField="Budget" HeaderText="Budget" Visible="true" SortExpression="Budget"/>
+                        <asp:BoundField  DataField="Budget" HeaderText="Budget" Visible="true" SortExpression="Budget" DataFormatString="{0:C}" />
                         <asp:HyperLinkField HeaderText="Edit"  Text="<i class='fa fa-pencil-square-o fa-lg'></i> Edit" NavigateUrl="~/DepartmentsDetails.aspx.cs"
                             DataNavigateUrlFields="DepartmentID" DataNavigateUrlFormatString="DepartmentsDetails.aspx?DepartmentID={0}"
                             controlStyle-CssClass="btn btn-primary btn-sm"/>
